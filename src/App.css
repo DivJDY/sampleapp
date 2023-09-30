@@ -1,38 +1,77 @@
-.App {
+/* App.css */
+
+
+
+.header-bg{
+  background-color: royalblue;
+  height: 10vh;
+}
+
+
+.nav-header{
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.nav-txt{
+    display: flex;
+    align-items: center;
+    font-size: 3vh;
+    color: white;
+}
+
+
+/* ********** Landing SCreen styles *****************  */
+
+.background-image {
+  background-image: url('../assets/bg.webp'); /* Replace with the correct path to your image */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  height: 68vh;
+
+
+}
+
+.txt-link{
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  padding-left: 50%;
+
+}
+
+
+
+.txt-btn{
+  cursor: pointer;
+  font-size: 8vh;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* ********** Landing SCreen styles *****************  */
+
+
+/* ********** Home SCreen styles *****************  */
+
+.container{
+  background-color: antiquewhite;
+  margin-top: 0%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.sort-btn {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex:1;
+  justify-content: flex-end;
+  padding-right: 20px;
+  padding-top:20px;
+  padding-bottom: 20px;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.txt{
+  cursor: pointer;
+ font-size: 2.2vh;
+ padding: 8px 10px;
 }

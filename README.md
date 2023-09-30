@@ -1,5 +1,6 @@
 # Getting Started with Create React App
 
+This Project shows an header with an Two pages, where Landing page shows image with button and navigate to website and Home page shows table of data fetch from GraphQL
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
